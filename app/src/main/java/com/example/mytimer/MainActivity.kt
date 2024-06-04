@@ -11,11 +11,9 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.lifecycle.lifecycleScope
-import androidx.room.Room
 import com.example.mytimer.ui.theme.MyTimerTheme
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+
 
 class MainActivity : ComponentActivity() {
 
